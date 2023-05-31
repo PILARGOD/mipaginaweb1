@@ -5,49 +5,58 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-   
-</head>
-<body>
-    <div class="container-nav">
-        <nav class="navbar" role="navigation"></nav>  
-            <a href="index.html" class="brand">Mi página web</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="button-menu-toggle">Menu</button>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <h1>Presentacion</h1>
-                    <p>Soy Pili, y esta es mi primera pagina web</p>
-                    <p> Estoy aprendiendo desarrollo web
-                        para crear sitios web visulamente
-                        atrapantes y funcionales.
-                    </p>
-            </div>
-            <div class="column">
+</head>
+
+<body>
+
+    <header class="container-nav">
+        <nav class="navbar">
+            <div class="container-nav">
+                <nav class="navbar" role="navigation"></nav>
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="button-menu-toggle">Menu</button>
+        </nav>
+      </header>
+  
+      <main>
+        <div class="container">
+
+            <h1>Bienvenidos a mi pagina website</h1>
+            <section>
+                <h2>Presentacion</h2>
+                <p>Soy Pili, y esta es mi primera pagina web</p>
+                <p> Estoy aprendiendo desarrollo web
+                    para crear sitios web visulamente
+                    atrapantes y funcionales.
+                </p>
+            </section>
+            <section>
                 <h2> Lo que se viene...</h2>
                 <p>
                     A lo largo de este curso estare aprendiendo html, css
                     y javascript. estos lenguajes me ayudaran a crear una
                     base solida en el desarrollo web front-end.
                 </p>
-            </div>
+            </section>
         </div>
+        <div class="video-container">
+            <iframe width="560" height="315"src="https://www.youtube.com/watch?v=kslVCIxyU8Q&ab_channel=UltraStock"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen></iframe>
+            </div>
+      </main>
+  
+      <footer>
+        <p>Pongamos informacion sobre el desarrollador o la compañia </p>
+        <button onclick="showAlert()" aria-label="Haz click en mi">Haz click en mi</button>
+      </footer>
 
-
-
-
-    </div>
-    <button onclick="showAlert()">Haz clcick en mi</button>
-    <script src="script.js"></script>
-
+      <script src="script.js"></script>
 </body>
 
 </html>

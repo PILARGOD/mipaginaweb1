@@ -9,35 +9,48 @@
 </head>
 
 <body>
-    <div class="container-nav">
-        <nav class="navbar" role="navigation"></nav>
-        <a href="index.html" class="brand">Mi página web</a>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
+
+
+    <header class="container-nav">
+        <nav class="navbar">
+            <div class="container-nav">
+                <nav class="navbar" role="navigation"></nav>
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="button-menu-toggle">Menu</button>
         </nav>
-        <button class="button-menu-toggle">Menu</button>
-    </div>
+    </header>
+
+    <main>
     <div class="container">
         <h1>Acerca de</h1>
         <p>¡Bienvenido a nuestra página “Acerca de”! Aquí,
             aprenderás más sobre nuestra empresa y los servicios que
             ofrecemos.</p>
-        <div class="imagen-mi">
-            <img src="img/foto.jpeg" alt="foto1" />
-            <img src="img/foto2.jpeg" alt="imagen2" />
-            <img src="img/descarga.jpeg" alt="imagen3" />
-        </div>
-
+    </div>
+    <div class="imagen-mi">
+        <img src="img/foto.jpeg" alt="foto1" />
+        <img src="img/foto2.jpeg" alt="imagen2" />
+        <img src="img/descarga.jpeg" alt="imagen3" />
+    </div>
+    <div class="container greeting ">
+        <h1>Gracias por su visita</h1>
 
     </div>
+    </main>
+
+    <footer>
+        <p>Pongamos informacion sobre el desarrollador o la compañia </p>
+        <button onclick="showAlert()" aria-label="Haz click en mi">Haz click en mi</button>
+    </footer>
 
     <script src="script.js"></script>
-
-
 </body>
 
 </html>
